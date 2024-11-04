@@ -6,7 +6,6 @@ require('dotenv').config()
 
 const paymentRouter = require('./routes/payment');
 
-
 var app = express();
 
 app.use(logger('dev'));
@@ -15,6 +14,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('api/', paymentRouter);
+app.use('/api', paymentRouter);
 
 module.exports = app;

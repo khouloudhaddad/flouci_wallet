@@ -7,3 +7,4 @@ Setup Payments with FLOUCI wallet, ReactJs And NodeJs
 - npm i && npm start
 - npm i nodemon -D
 - npm i dotenv 
+- npm i axios
