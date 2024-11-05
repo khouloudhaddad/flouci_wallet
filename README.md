@@ -17,4 +17,13 @@ Setup Payments with FLOUCI wallet, ReactJs And NodeJs
 <br/><br/>
 - [FLOUCI API Documentation](https://flouci.stoplight.io/docs/flouci-payment-apis/6c9b5ad7358c9-fr-flouci-payment-api)
 
+## Run both client and server simultaneously
+- npm i concurrently --save
+- [NPM CONCURRENTLY DOC](https://www.npmjs.com/package/concurrently)
+- Run 
+```
+npm run dev
+```
+
+
 
