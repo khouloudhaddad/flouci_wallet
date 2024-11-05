@@ -12,7 +12,6 @@ function Payment() {
 
   const onsubmit = (e) => {
     e.preventDefault();
-    //console.log(form)
     axios
       .post("/api/payment", form)
       .then((res) => {

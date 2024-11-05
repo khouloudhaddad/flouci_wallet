@@ -1,6 +1,6 @@
 import React from 'react'
 
-function fail() {
+function Fail() {
   return (
     <div className='p-4'>
       <div role="alert" className="alert alert-danger">
@@ -10,4 +10,4 @@ function fail() {
   )
 }
 
-export default fail
+export default Fail
