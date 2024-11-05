@@ -31,6 +31,9 @@ npm run dev
 ```
 npm i react-router-dom
 ```
-
+- Install axios on client
+```
+npm i axios
+```
 
 
