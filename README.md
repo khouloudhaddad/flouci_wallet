@@ -25,5 +25,12 @@ Setup Payments with FLOUCI wallet, ReactJs And NodeJs
 npm run dev
 ```
 
+## Client changes
+- Add bootstrap CSS CDN inside public/index.html
+- Add react dom router: 
+```
+npm i react-router-dom
+```
+
 
 
