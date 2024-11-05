@@ -2,7 +2,11 @@ import React from 'react'
 
 function success() {
   return (
-    <div>success</div>
+    <div className='p-4'>
+      <div role="alert" className="alert alert-success">
+        <span>Payment success.</span>
+      </div>
+    </div>
   )
 }
 

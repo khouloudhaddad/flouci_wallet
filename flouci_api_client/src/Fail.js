@@ -2,7 +2,11 @@ import React from 'react'
 
 function fail() {
   return (
-    <div>fail</div>
+    <div className='p-4'>
+      <div role="alert" className="alert alert-danger">
+        <span>Payment failure.</span>
+      </div>
+    </div>
   )
 }
 
