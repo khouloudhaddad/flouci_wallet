@@ -15,7 +15,7 @@ Setup Payments with FLOUCI wallet, ReactJs And NodeJs
 <br/><br/>
 <img src="https://i.ibb.co/zss7bnx/thunderclient-flouci.png" width="100%" alt="Thunder client">
 <br/><br/>
-- [FLOUCI API Documentation](https://flouci.stoplight.io/docs/flouci-payment-apis/6c9b5ad7358c9-fr-flouci-payment-api)
+- [FLOUCI API Documentation]("https://flouci.stoplight.io/docs/flouci-payment-apis/6c9b5ad7358c9-fr-flouci-payment-api")
 
 ## Run both client and server simultaneously
 - npm i concurrently --save

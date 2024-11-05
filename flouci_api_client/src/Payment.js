@@ -14,9 +14,10 @@ function Payment() {
     e.preventDefault();
     //console.log(form)
     axios
-      .post("/api/payment")
+      .post("/api/payment", form)
       .then((res) => {
-        console.log(res.data);
+        const result = res.data.result 
+        window.location.href = result.link
       })
       .catch((err) => console.log(err));
   };
